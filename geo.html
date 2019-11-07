@@ -12,6 +12,8 @@
 var x = document.getElementById("demo");
 
 function getLocation() {
+  alert('navigator.geolocation');
+  alert(navigator.geolocation);
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
   } else { 
